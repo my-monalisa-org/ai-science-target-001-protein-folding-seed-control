@@ -1,0 +1,10 @@
+experiment:
+  domain: protein-folding
+  objective: structure confidence
+  random_seed: null
+data:
+  version: synthetic-v1
+model:
+  version: baseline-v1
+evaluation:
+  test_size: 0.25
