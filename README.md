@@ -18,8 +18,9 @@ pip install -r requirements.txt
 python src/experiment.py
 ```
 
-The script generates or downloads fixture inputs, trains a baseline, and writes
-metrics plus an artifact record to `outputs/`.
+The script generates fixture inputs locally in `src/experiment.py` (see
+`load_fixture()`), trains a baseline, and writes metrics plus an artifact
+record to `outputs/`.
 
 ## Reproducibility exercise
 
